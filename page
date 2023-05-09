@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Seven Graphics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Seven Graphics</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Arte e Direção <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="file:///C:/Users/supor/OneDrive/%C3%81rea%20de%20Trabalho/Brincadeira/Portfolio.html">Portfolio</a></li>
+          <li><a href="file:///C:/Users/supor/OneDrive/%C3%81rea%20de%20Trabalho/Brincadeira/Quemsoueu.html">Quem sou eu ?</a></li>
+          <li><a href="#">Furutos Lançamentos</a></li>
+        </ul>
+      </li>
+      <li><a href="file:///C:/Users/supor/OneDrive/%C3%81rea%20de%20Trabalho/Brincadeira/contato.html">Contato</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="login-modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <div class="modal-body">
+        <form method="post" action="login.php">
+          <div class="form-group">
+            <label for="username">Sua ID:</label>
+            <input type="text" class="form-control" id="username" name="username">
+          </div>
+          <div class="form-group">
+            <label for="password">Sua senha meu chapa:</label>
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+body {
+  background-image: url("definido.jpg");
+}
+</style>
+
+</body>
+</html>
+<audio controls autoplay>
+  <source src="last.ogg" type="audio/ogg">
+  <source src="last.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
